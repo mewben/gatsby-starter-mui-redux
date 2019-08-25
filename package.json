@@ -5,18 +5,28 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "4.3.3",
+    "axios": "0.19.0",
     "gatsby": "^2.13.73",
     "gatsby-image": "^2.2.10",
     "gatsby-plugin-manifest": "^2.2.6",
+    "gatsby-plugin-material-ui": "2.1.5",
     "gatsby-plugin-offline": "^2.2.7",
+    "gatsby-plugin-prefetch-google-fonts": "1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.4",
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.11",
     "gatsby-transformer-sharp": "^2.2.7",
+    "immutable": "4.0.0-rc.12",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-redux": "7.1.0",
+    "redux": "4.0.4",
+    "redux-axios-middleware": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
